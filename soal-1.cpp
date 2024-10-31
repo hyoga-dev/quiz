@@ -1,9 +1,10 @@
 #include <iostream>
+#include <cmath>
 using namespace std;
 
 void hitungEK(double massa, double kecepatan) 
 {
-	double EK =0.5 * massa * kecepatan * kecepatan;
+	double EK =0.5 * massa  * pow(kecepatan, 2);
 	cout << "EK : " << EK;
 }
 
